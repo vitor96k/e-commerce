@@ -6,6 +6,11 @@
         "slim/slim": "^3.9",
         "rain/raintpl": "^3.1"
     },
+    "autoload": {
+        "psr-4": {
+            "vitor96k\\": "vendor\\vitor96k\\php-classes\\src"
+        }
+    },
     "authors": [
         {
             "name": "Vitor",
