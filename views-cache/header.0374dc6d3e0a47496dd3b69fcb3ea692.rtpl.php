@@ -1,7 +1,58 @@
 <?php if(!class_exists('Rain\Tpl')){exit;}?><!DOCTYPE html>
 <html>
 <head>
-	<meta charset="UTF-8">
-	<title>Loja Virtual</title>
+	<title>Sorevi Loja</title>
+	<link href="resources/site/css/bootstrap.min.css" rel="stylesheet">
+	<link href="resources/site/css/novo.css" rel="stylesheet">
+	<meta charset="utf-8">
 </head>
+
 <body>
+
+<!-- comeco do header -->
+
+<!-- barra de navegacao principal --> 
+<nav class="navbar">
+	<div class="container-fluid fundoLogin">
+		<div class="container">
+			<ul class="nav navbar-nav navbar-right">
+				<li> <a href="#"> <span class="glyphicon glyphicon-user"> </span> Minha Conta </a></li>
+				<li> <a href="#"> <span class="glyphicon glyphicon-heart"> </span> Lista de Desejos </a></li>
+				<li><a href="#"> <span class="glyphicon glyphicon-shopping-cart"> </span> Meu Carrinho </a></li>
+				<li><a href="#"> <span class="glyphicon glyphicon-log-in"> </span> Login </a></li>
+			</ul>
+		</div>
+	</div>
+</nav>
+
+<!-- logo e input de pesquisa -->
+<div class="container">
+	<div class="row">
+		<div class="col-sm-6">
+			<a href="#"> <img src="resources/site/img/Sorevi-Logo2.png"  height="80"> </a>
+		</div>
+
+		<div class="col-sm-6 ">
+			<div class="input-group pesquisa">
+     			<span class="input-group-btn">
+        			<button class="btn btn-secondary" type="button"> <span class="glyphicon glyphicon-search"> </span> </button>
+      			</span>
+      			<input type="text" class="form-control" placeholder="O que desejar comprar ?">
+   			 </div>			
+		</div>
+	</div>
+</div>
+
+<!-- menu secundario -->
+<div class="row menuSecundario">
+ 	<div class="container">
+		<div class="navbar-collapse collapse">
+		    <ul class="nav navbar-nav menuSecundario-fonte">
+		        <li class="active"> <a href="#"> HOME </a> </li>
+		        <li><a href="#">PRODUTOS</a></li>
+		        <li><a href="#">CARRINHO</a></li>
+		   	 </ul>
+		</div>
+ 	</div> 
+</div>
+<!-- fim do header -->

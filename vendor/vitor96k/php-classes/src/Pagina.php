@@ -18,12 +18,12 @@ class Pagina{
 		}
 	}
 	
-	public function __construct($opt = array()){
+	public function __construct($opt = array(), $dir="views"){
 
 
 		//Configuracoes iniciais para usar o Rain/TPL
 		$config = array(
-    		"tpl_dir"       => $_SERVER['DOCUMENT_ROOT']."/e-commerce/views/",
+    		"tpl_dir"       => $_SERVER['DOCUMENT_ROOT']."/e-commerce/".$dir."/",
     		"cache_dir"     => $_SERVER['DOCUMENT_ROOT']."/e-commerce/views-cache/"
 		);	
 
